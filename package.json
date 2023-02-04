@@ -1,0 +1,28 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "-y",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelseyRA/SVG-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelseyRA/SVG-Generator/issues"
+  },
+  "homepage": "https://github.com/KelseyRA/SVG-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
