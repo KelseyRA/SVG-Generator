@@ -1,6 +1,10 @@
+// Class imports needed for testing.
+
 const Triangle = require('../lib/triangle.js');
 const Circle = require('../lib/circle.js');
 const Square = require('../lib/square.js');
+
+// Test for the Triangle Class.
 
 describe('renderTriangle', () => {
     it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
@@ -20,6 +24,8 @@ describe('renderTriangle', () => {
     });
 });
 
+// Test for the Circle Class.
+
 describe('renderCircle', () => {
     it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
         const circle = new Circle('white', 'blue', 'ABC');
@@ -37,6 +43,8 @@ describe('renderCircle', () => {
         </svg>`)
     });
 });
+
+// Test for the Square Class.
 
 describe('renderSquare', () => {
     it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
