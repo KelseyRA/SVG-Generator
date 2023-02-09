@@ -12,7 +12,7 @@ describe('renderTriangle', () => {
         width="300" height="200"
         xmlns="http://www.w3.org/2000/svg">
 
-        <polygon points="150, 18 244, 182 56, 182" fill="${triangle.shapeColor}"/>
+        <polygon points="150, 18 244, 182 56, 182" fill="${triangle.shapeColor}" />
 
         <text x="150" y="150" font-size="55" text-anchor="middle" fill="${triangle.textColor}">${triangle.text}</text>
 
@@ -29,11 +29,11 @@ describe('renderCircle', () => {
         expect(circle.render()).toBe(`<svg version="1.1"
         width="300" height="200"
         xmlns="http://www.w3.org/2000/svg">
-  
-        <circle cx="150" cy="100" r="80" fill="${circle.shapeColor}"/>
-  
+
+        <circle cx="150" cy="100" r="80" fill="${circle.shapeColor}" />
+
         <text x="150" y="125" font-size="55" text-anchor="middle" fill="${circle.textColor}">${circle.text}</text>
-  
+
         </svg>`)
     });
 });
