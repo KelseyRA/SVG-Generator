@@ -3,7 +3,7 @@ const Circle = require('../lib/circle.js');
 const Square = require('../lib/square.js');
 
 describe('renderTriangle', () => {
-    it('should output the color white, blue, and "ABC"', () => {
+    it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
         const triangle = new Triangle('white', 'blue', 'ABC');
         expect(triangle.textColor).toBe('white');
         expect(triangle.shapeColor).toBe('blue');
@@ -21,7 +21,7 @@ describe('renderTriangle', () => {
 });
 
 describe('renderCircle', () => {
-    it('should output the color white, blue, and "ABC"', () => {
+    it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
         const circle = new Circle('white', 'blue', 'ABC');
         expect(circle.textColor).toBe('white');
         expect(circle.shapeColor).toBe('blue');
@@ -39,7 +39,7 @@ describe('renderCircle', () => {
 });
 
 describe('renderSquare', () => {
-    it('should output the color white, blue, and "ABC"', () => {
+    it('should output the color white, blue, and the text "ABC". The appropriate svg code is rendered', () => {
         const square = new Square('white', 'blue', 'ABC');
         expect(square.textColor).toBe('white');
         expect(square.shapeColor).toBe('blue');
